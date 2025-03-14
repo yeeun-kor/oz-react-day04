@@ -1,4 +1,4 @@
-/* Base styles */
+/* 기본 스타일 */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +24,7 @@ h1 {
     color: #2c3e50;
 }
 
-/* Filter styles */
+/* 필터 스타일 */
 .filter-container {
     display: flex;
     align-items: center;
@@ -58,14 +58,14 @@ h1 {
     color: white;
 }
 
-/* Card grid */
+/* 카드 그리드 */
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
 }
 
-/* Card styles */
+/* 카드 스타일 */
 .card {
     background-color: white;
     border-radius: 8px;
@@ -115,7 +115,7 @@ h1 {
     font-size: 0.95rem;
 }
 
-/* Responsive adjustments */
+/* 반응형 */
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
