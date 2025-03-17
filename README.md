@@ -29,7 +29,7 @@
     - `item`은 `CardList.jsx`에서 전달됩니다.
 
 - **기본 요구 사항**
-    1. `npm install & npm run dev` 를 터미널에 입력하여 서버를 실행합니다.
-    2. `components/Card.jsx` , `components/CardList.jsx` 를  수정합니다.
+    1. `npm install & npm run dev` 를 터미널에 입력하여 서버를 실행합니다. 
+    2. `components/CardList.jsx` 를 수정한 뒤 `components/Card.jsx` 를  수정합니다.
     3. 문제의 **요구 사항**에 대해 구현합니다.
     4. css는 자유롭게 수정해도 좋습니다.
