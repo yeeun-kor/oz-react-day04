@@ -16,14 +16,17 @@
 
 - **문제 요구 사항**
 
-- 카드 리스트를 담당하는 컴포넌트 `CardList.jsx` 에 요구 사항을 구현 합니다.
-    - listData를 받아와서 카드 리스트를 렌더링 해야 합니다.
-    - listData의 각 요소를 Card 컴포넌트에 props로 넘겨주어야 합니다.
-    - Card 컴포넌트에는 **item**을 넘겨주어야 합니다.
-- 카드 1개의 화면을 담당하는 컴포넌트 `Card.jsx` 에 요구 사항을 구현 합니다.
-    - **item**을 받아와서 카드를 렌더링 해야 합니다.
-    - **item**의 title, description, category를 알맞는 html 태그에 넣으세요.
-    - **item**은 CardList에서 전달됩니다.
+- `CardList.jsx` 컴포넌트 내 요구 사항
+    - 카드의 리스트 UI를 담당하는 컴포넌트 입니다.
+    - `listData`를 받아와서 카드 리스트를 렌더링 해야 합니다.
+    - `listData`의 각 요소를 `Card.jsx` 컴포넌트에 props로 넘겨주어야 합니다.
+    - `Card.jsx` 컴포넌트에는 `item`을 넘겨주어야 합니다.
+    
+- `Card.jsx` 컴포넌트 내 요구사항
+    - 카드의 1개의 UI를 담당하는 컴포넌트 입니다.
+    - `item`을 받아와서 카드를 렌더링 해야 합니다.
+    - `item`의 `title`, `description`, `category`를 알맞는 html 태그에 넣으세요.
+    - `item`은 `CardList.jsx`에서 전달됩니다.
 
 - **기본 요구 사항**
     1. `npm install & npm run dev` 를 터미널에 입력하여 서버를 실행합니다.
